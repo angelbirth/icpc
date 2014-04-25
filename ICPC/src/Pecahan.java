@@ -10,7 +10,6 @@ public class Pecahan {
             // try {
             // System.setIn(new FileInputStream(args[0]));
             // } catch (FileNotFoundException e) {
-            // // TODO Auto-generated catch block
             // System.err.println(e.getMessage());
             // }
         }
@@ -38,6 +37,7 @@ public class Pecahan {
                     System.out.printf("%d %d/%d%n", num / den,
                             num % den > 0 ? num % den : -num % den,
                             den > 0 ? den : -den);
+                    // num/den, Math.abs(num%den),Math.abs(den)
                 } else {
                     System.out.printf("%d/%d%n", num, den);
                 }
